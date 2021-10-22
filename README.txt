@@ -13,8 +13,8 @@ You have installed pytest (you can install pytest from test terminal of vscode)
 
 Running guidelines:
 
-1)solution.py:In order to execute the code with various inputs, uncomment A,B and C
-code blocks in the solution.py and execute the code using command 'python solution.py'
+1)solution.py:In order to execute the code with various inputs, uncomment A 
+code block in the solution.py and execute the code using command 'python solution.py' and provide the user input(Antivirus Log)
 
 2)test_solution.py: In order to check the test cases, use the command below:
 pytest -v

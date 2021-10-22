@@ -72,18 +72,20 @@ class Sacumen:
         except Exception as e:
             return(str(e))
             
-# A: Uncomment  below code - If input string is empty    
+
+# A:Uncomment Below code to run the solution.py independently
+# data = input("Enter the Antivirus Log\n")
+# result = Sacumen(data).dictlog()
+# print(result)
+
+"""***************************** Below are the sample strings ************************************"""
+
+# B: Use below input - If input string is empty    
 # data = ""
-# obj1 = Sacumen(data).dictlog()
-# print(obj1)
 
-# B:Uncomment below code If input string is having correct format
+# C:Use below input - If input string is having correct format
 # data = "SAC:0|Sacumen|CAAS|2021.2.0|3|MALICIOUS|High|cat=C2 cs1Label=subcat cs1=DNS_TUNNELING cs2Label=vueUrls cs2=https://aws-dev.sacdev.io/alerts?filter=alertId%3D%3D81650 cs3Label=Tags cs3=USA,Finance cs4Label=Url cs4=https://aws-dev.sacdev.io/settings/tir?rules.sort=4%3A1&filter=state%3D%3D2&selected=9739323 cn1Label=severityScore cn1=900 msg=Malicious activity was reported in CAAS\= A threat intelligence rule has been automatically created in DAAS. dhost=bad.com dst=1.1.1.1"             
-# obj1 = Sacumen(data).dictlog()
-# print(obj1)
 
 
-# C:Uncomment below code If 'msg' block is not present in the string or the string is having incorrect format
+# D:Use below input - If 'msg' block is not present in the string or the string is having incorrect format
 # data = "SAC:0|Sacumen|CAAS|2021.2.0|3|MALICIOUS|High|cat=C2 cs1Label=subcat cs1=DNS_TUNNELING cs2Label=vueUrls cs2=https://aws-dev.sacdev.io/alerts?filter=alertId%3D%3D81650 cs3Label=Tags cs3=USA,Finance cs4Label=Url cs4=https://aws-dev.sacdev.io/settings/tir?rules.sort=4%3A1&filter=state%3D%3D2&selected=9739323 cn1Label=severityScore cn1=900 dhost=bad.com dst=1.1.1.1"       
-# obj1 = Sacumen(data).dictlog()
-# print(obj1)
