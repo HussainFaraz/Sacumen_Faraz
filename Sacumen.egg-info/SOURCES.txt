@@ -1,0 +1,9 @@
+README.txt
+setup.py
+Sacumen.egg-info/PKG-INFO
+Sacumen.egg-info/SOURCES.txt
+Sacumen.egg-info/dependency_links.txt
+Sacumen.egg-info/top_level.txt
+project/__init__.py
+project/solution.py
+project/test_solution.py
